@@ -1,0 +1,178 @@
+/*general*/
+a {
+	text-decoration: none;
+	color: #b21818;
+
+}
+
+#wrapper{
+	max-width: 1300px;
+	margin: 0 auto;
+	padding:5%;
+	background: #66CC66;
+}
+
+#logo{ text-align: center;
+	margin: 0;
+
+}
+
+img{ max-width: 80%;}
+
+
+
+/*heading */
+header{
+	float: right;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+header{
+	background: #66CC66;
+	border-color:#2f4073;
+}
+
+h1, h2, h3{
+	color:#0000cc;
+}
+
+h1{
+	font-family: 'Josefin Slab', sans-serif;
+	margin: 15px 0;
+	font-size: 2.5em;
+	font-weight: normal;
+	line-height: 1.5em;
+}
+h2{
+	font-family: 'Josefin Slab', sans-serif;
+	
+	font-size: 2em;
+	line-height: 0.1;
+	}
+h3{
+	font-family: 'Josefin Slab', sans-serif;
+	
+	font-size: 2em;
+	line-height: 0.1em;
+	}
+
+
+
+
+
+/*navigation*/
+
+nav a{
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav{
+	background: 30374;
+}
+
+nav a, nav a:visited {
+	color:#6f18ff;
+}
+
+nav a.selected {
+	color: #000b73;
+}
+
+nav a:hover{
+	color:#ff9339;
+	}
+/* galeria */
+
+#galeria{
+	margin: 0;
+	padding: 0;	
+	list-style: none;
+}
+	
+#galeria li{
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #66CC66;
+	color: #359741;
+	}
+	
+#galeria li a p{
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #147752;
+
+}
+
+/*footer*/
+
+footer{
+
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
+
+}
+.social-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+
+
+/* estilos para acerca de */
+.profile-photo{
+	display: block;
+	max-width: 1000px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
+
+.contact-info{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-style: 0.9em; 
+}
+
+.contact-info a {
+	display: inline-block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding:  0 0 0 40px;
+	margin: 0 0 50px;
+}
+.contact-info li.phone a {
+	background-image: url('../img/telefono.png')
+
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/email.png')
+}
+
+
+.contact-info li.facebook a {
+	background-image: url('../img/instagram.png')
+
+}
+
+/*seccion de servicios*/
